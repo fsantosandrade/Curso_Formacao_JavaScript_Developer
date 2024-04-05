@@ -1,0 +1,4 @@
+Let e Const:
+
+Let: Declara uma variável que pode vir a ter seu valor alterado
+Const: Uma vez declarado um valor não pode mais ser alterado
