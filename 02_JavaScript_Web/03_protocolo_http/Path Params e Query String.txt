@@ -1,0 +1,12 @@
+Path
+
+Caminho de identificação do recurso, inserido logo após o endereço
+
+Query String
+
+Representado pela ? significa passar algms condições (separadas por: &), principalmente pelo método GET
+
+Exemplos:
+
+offset: Pula x quantidades na pesquisa
+limit: Limita a quantidade de itens da pesquisa
