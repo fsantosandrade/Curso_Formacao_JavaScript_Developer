@@ -1,0 +1,31 @@
+Tipos de Dados
+
+Tipos primitivos (Imutáveis):
+
+- boolean
+- null
+- undefined
+- number 
+- string
+- synbol
+
+Tipo mutável:
+
+- object
+
+Comparadores:
+
+== - Comparar os valores fornecidos ignorando seus tipos
+=== - Compara os valores fornecidos e os seus tipos 
+
+Obs: O "=" sozinho não serve para comparar e sim para a atribuição.
+
+Boolean:
+
+Se resume aos valores "True" e "False".
+
+Obs: valores vazios ou o inteiro 0 são interpretados como "false", já valores preenchidos e inteiros diferentes de 0 para "true".
+
+Null e Undefined
+
+O null representa uma ausência de valores, já o undefined é a ausência de declaração de uma determinada propriedade semanticamente.
