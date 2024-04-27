@@ -1,0 +1,25 @@
+O que é o hoisting?
+
+Hoisting é o equivalente ao "isamento" (movimento de elevar) do código. Significa que, no javascript, quando declaramos por exemplo uma função depois de chamarmos, o código funcionar normalmente, pois é como se o javascript realocasse todas as declarações de funções para o início do código.
+
+Já com variáveis funciona diferente, pois quando chamamos uma variável antes de sua declaração e atribuição o Hoisting não joga tudo para o início do código como nas funções, e sim somente a declaração dela, mantendo sua atribuição no mesmo local do código.
+
+Var, Let e Const
+
+Var: Escopo Global ou Função - Sofre os efeitos do Hoisting, sendo iscada e podendo, inclusive, ser utilizada mesmo estando declarada dentro de blocos de código (exeto em funções). 
+
+Let: Escopo de Bloco - Declara variáveis normalmente, com a execão de que se restringe a qualquer bloco de código, idependente de qual seja, além de que pode ter se valor reatribuído.
+
+Const: Escopo de Bloco - Possui as mesmas características do Let, com a diferença de que não pode ter seu valor reatribuível, matendo-se a primeira atribuição.
+
+Convenções de Nomeclatura:
+
+Iniciar com letras: SIM
+Iniciar com "$": SIM
+Iniciar com números: NÃO
+Iniciar com "_": SIM (Quando queremos dizer que é restrita àquele escopo)
+Iniciar com letra maiúscula: SIM (Quando é uma função construtora ou uma classe)
+Variável toda em maiúsculo: SIM (Quando queremos dizer que é uma constante)
+Possuir espaços: NÃO
+
+Obs: Variáveis de nome composto normalmente escrevemos de início com letra minúscula e posteriormente, o início de cada palavra com letra maiúscula.
