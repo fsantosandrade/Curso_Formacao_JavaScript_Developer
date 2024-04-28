@@ -7,7 +7,7 @@ Tipos primitivos (Imutáveis):
 - undefined
 - number 
 - string
-- synbol
+- symbol
 
 Tipo mutável:
 
@@ -26,6 +26,31 @@ Se resume aos valores "True" e "False".
 
 Obs: valores vazios ou o inteiro 0 são interpretados como "false", já valores preenchidos e inteiros diferentes de 0 para "true".
 
-Null e Undefined
+Null e Undefined:
 
 O null representa uma ausência de valores, já o undefined é a ausência de declaração de uma determinada propriedade semanticamente.
+
+Number:
+
+No javascript number é direcionado a qualquer número, seja ele inteiro ou decimal. Além disso temos mais três tipos (ou dados) que são number, são eles:
+
+- +Infinity
+- -Infinity
+- NaN
+
+Obs: O padrão utilizado para a representação e utilização dos numbers em js e em outras linguagens podem gerar "lixo" em operações, mudando seus resultados. Então, caso precise de resultados precisos utilize algma biblioteca como o decima.js.
+
+String:
+
+As formas declarar uma string em javascript são:
+
+- ""
+- ''
+- ``
+
+Symbol:
+
+O symbol é um objeto imutável único, ou seja, são formas de criarmos objetos únicos na nossa estrutura, geralmente utilizado para criar identificadores de objetos ou valores, pois garantiria que seria único.
+
+Objetos e Métodos:
+
