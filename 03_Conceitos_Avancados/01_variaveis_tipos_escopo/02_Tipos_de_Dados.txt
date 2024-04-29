@@ -54,3 +54,4 @@ O symbol é um objeto imutável único, ou seja, são formas de criarmos objetos
 
 Objetos e Métodos:
 
+Objetos nada mais são do que uma coleção de chaves e valores, separados por vírgulas e  declarados com a chave (nome) e o valor em si (conteúdo). Além disso objetos também podem armazenar métodos, ou seja, armazenar funções completas com saídas.
